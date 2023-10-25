@@ -15,30 +15,30 @@ export interface IRoute {
 
 export const routes: IRoute[] = [
 	{
-    path: '/', 
+    path: '/kinoteka/', 
     element: <Main/>
   },
   {
-    path: "/movie/:id",
+    path: "/kinoteka/movie/:id",
     element: <MoviePage/>,
   },
   {
-    path: "/movie/:id",
+    path: "/kinoteka/movie/:id",
     element: <MoviePage/>,
   },
   {
-    path: "/search",
+    path: "/kinoteka/search",
     element: <SearchPage/>,
   }
 ]
 
 export const publicRoutes: IRoute[] = [
    {
-    path: "/login",
+    path: "/kinoteka/login",
     element: <Auth/>,
   },
   {
-    path: "/registration",
+    path: "/kinoteka/registration",
     element: <Auth/>,
   },
   {
@@ -49,19 +49,19 @@ export const publicRoutes: IRoute[] = [
 
 export const privateRoutes: IRoute[] = [
 	{
-    path: "/add-movie",
+    path: "/kinoteka/add-movie",
     element: <AddMovie/>,
   },
   {
-    path: "/add-movie/:id",
+    path: "/kinoteka/add-movie/:id",
     element: <AddMovie/>,
   },
   {
-    path: "/watchlist/",
+    path: "/kinoteka/watchlist/",
     element: <MyWatchList/>,
   },
   {
-    path: "/profile/",
+    path: "/kinoteka/profile/",
     element: <MyProfile/>,
   },
   {
