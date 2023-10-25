@@ -38,7 +38,7 @@ const AddMovieForm: FC<MyFormProps> = () => {
 		}
 
 		await uploadCover(coverForm).unwrap()
-		navigate('/movie/' + responseMovie._id)
+		navigate('/kinoteka/movie/' + responseMovie._id)
 	}
 	
 	return (

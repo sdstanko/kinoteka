@@ -58,7 +58,7 @@ const Auth: FC = () => {
 				dispatch(setUser(decoded))
 			}
 			dispatch(setIsAuth(true))
-			navigate('/')
+			navigate('/kinoteka')
 
 		} catch (e: any) {
 			setError(e.data.message)

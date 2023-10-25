@@ -40,7 +40,7 @@ const MoviePage: FC = () => {
 	const navigate = useNavigate()
 
 	const navToEdit = () => {
-		navigate('/add-movie/' + movieId)
+		navigate('/kinoteka/add-movie/' + movieId)
 	}
 
 	const formatGenres = (genres: string[]) => {

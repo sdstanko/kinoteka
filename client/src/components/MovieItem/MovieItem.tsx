@@ -16,7 +16,7 @@ const MovieItem: FC<MovieProps> = ({movie}) => {
 	}
 
 	return (
-		<div className={styles.movieItem} onClick={() => navigate('/movie/' + movie._id)}>
+		<div className={styles.movieItem} onClick={() => navigate('/kinoteka/movie/' + movie._id)}>
 			<div className={styles.movieItem__body}>
 				<div className={styles.movieItem__img}>
 					<img src={movie.cover}/>

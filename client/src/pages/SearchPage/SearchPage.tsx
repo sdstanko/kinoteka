@@ -34,7 +34,7 @@ const SearchPage = () => {
 
 	useEffect(() => {
 		if (query) {
-			navigate('/search' + query)
+			navigate('/kinoteka/search' + query)
 		}
 	}, [query])
 

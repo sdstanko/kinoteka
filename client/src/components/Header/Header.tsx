@@ -44,13 +44,13 @@ const Header: FC = () => {
 	const redirectByKey = (e: React.KeyboardEvent) => {
 		if (e.key === 'Enter') {
 			const query = createQuery()
-			navigate('/search' + query)
+			navigate('/kinoteka/search' + query)
 		}
 	}
 
 	const redirectByClick = () => {
 		const query = createQuery()
-		navigate('/search' + query)
+		navigate('/kinoteka/search' + query)
 	}
 
 	const createQuery = () => {
