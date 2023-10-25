@@ -72,13 +72,13 @@ const InnerForm = (props: OtherProps & FormikProps<IAuthForm>) => {
 			{isRegistration ? 
 				<div className={styles.form__row}>
 				<span className={styles.form__nav}>
-					Have an account? <Link to="/login">Sign In!</Link>
+					Have an account? <Link to="/kinoteka/login">Sign In!</Link>
 				</span>
 				</div>
 				:
 				<div className={styles.form__row}>
 				<span className={styles.form__nav} onClick={() => resetAuthError()}>
-					Don't have account? <Link to="/registration">Sign Up!</Link>
+					Don't have account? <Link to="/kinoteka/registration">Sign Up!</Link>
 				</span>
 				</div>
 			}

@@ -79,13 +79,13 @@ const Header: FC = () => {
 								: styles.burger__menu}
 						>
 							<ul className={styles.burger__list}>
-								<li className={styles.burger__link}><Link to="/">Main</Link></li>
-								<li className={styles.burger__link}><Link to="/watchlist">My Watchlist</Link></li>
-								<li className={styles.burger__link}><Link to="/add-movie">Add Movie</Link></li>
-								<li className={styles.burger__link}><Link to="/search">Search page</Link></li>
+								<li className={styles.burger__link}><Link to="/kinoteka/">Main</Link></li>
+								<li className={styles.burger__link}><Link to="/kinoteka/watchlist">My Watchlist</Link></li>
+								<li className={styles.burger__link}><Link to="/kinoteka/add-movie">Add Movie</Link></li>
+								<li className={styles.burger__link}><Link to="/kinoteka/search">Search page</Link></li>
 							</ul>
 						</div>
-						<div className={styles.logo}><Link to="/">Kinoteka</Link></div>
+						<div className={styles.logo}><Link to="/kinoteka/">Kinoteka</Link></div>
 					</div>
 					<div className={styles.search}>
 						<div className={styles.search__item}>
@@ -109,10 +109,10 @@ const Header: FC = () => {
 						{isAuth ? 
 							<div className={styles.signIn__row}>
 								<img className={styles.avatar} src={src} alt="" />
-								<Link to='/profile'>{fullName}</Link> | <Link to="/" onClick={logout}>Logout</Link>
+								<Link to='/kinoteka/profile'>{fullName}</Link> | <Link to="/kinoteka" onClick={logout}>Logout</Link>
 							</div>
 							:
-							<Link to="/login">Sign In</Link>
+							<Link to="/kinoteka/login">Sign In</Link>
 						}
 					</div>
 				</div>
