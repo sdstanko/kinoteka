@@ -1,0 +1,5 @@
+{
+	"serverPort": "4001",
+	"dbUrl": "mongodb+srv://admin:0l6U7vRgN6CdEWpU@cloud.1prcwag.mongodb.net/?retryWrites=true&w=majority",
+	"secretKey": "kin0tekaKEY"
+}

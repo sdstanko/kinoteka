@@ -1,0 +1,36 @@
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 220px;
+	padding: 15px 20px;
+	margin-bottom: 30px;
+	margin-right: 15px;
+	border: none;
+	border-radius: 52px;
+	background-color: #f2f2f2;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: inherit;
+	cursor: pointer;
+	transition: 0.2s linear;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	&__icon {
+		margin-left: 5px;
+		background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill='%23000'%3E%3Cpath fill-rule='evenodd' d='M18.7 9V6.2h3.05V3.8H18.7V.75h-2.4V3.8h-2.8v2.4h2.8V9h2.4ZM7.65 3.75h2.85v2.4H7.65v10.902l3.245-1.683L12 14.797l1.105.572 3.245 1.683V12h2.4v9l-2.4-1.244L12 17.5l-4.35 2.256L5.25 21V3.75h2.4Z'/%3E%3C/svg%3E");
+		display: block;
+		width: 24px;
+		height: 24px;
+		background-repeat: no-repeat;
+		background-position: 50%;
+	}
+}
+
+.buttonActive {
+	background: #1f1f1f;
+	color: #ffffff;
+}

@@ -1,0 +1,125 @@
+.addMovie {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 15px 20px;
+	background-color: #fff;
+	// overflow: hidden;
+}
+
+.header {
+	padding: 20px 0;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.field {
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: #f2f2f2;
+}
+
+.title {
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+.description {
+	resize: none;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.selectRow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.genres {
+	margin-bottom: 25px;
+}
+
+.form__row {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.release__row {
+	display: flex;
+	flex-direction: column;
+}
+
+.release__inner {
+	display: flex;
+}
+
+.dateSelect {
+	margin-right: 5px;
+}
+
+
+.durationInput {
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 20%;
+	margin: 0 20px;
+	max-width: 100px;
+}
+
+.duration {
+	height: 38px;
+	max-width: 100px;
+}
+
+.country {
+	flex: 0 0 200px;
+}
+
+.cover__row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.uploadInput {
+	max-width: 150px;
+	align-self: center;
+}
+
+.uploadButton {
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	background-color: #1f1f1f;
+	color: #Ffffff;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 7px 15px;
+}
+
+.coverPreview {
+	display: block;
+	height: 200px;
+	max-width: 150px;
+}
+
+.addButton {
+	font-family: inherit;
+	font-size: 16px;
+	background-color: #1f1f1f;
+	color: #Ffffff;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 10px 15px;
+	border: none;
+}
+
+.error {
+	height: 20px;
+	color: red;
+}

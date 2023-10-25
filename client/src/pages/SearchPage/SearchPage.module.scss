@@ -1,0 +1,49 @@
+.searchPage__inner {
+	display: flex;
+	padding: 40px 40px 0 40px;
+}
+
+.searchFilters {
+	flex: 0 0 270px;
+	margin-right: 70px;
+}
+
+.rangeTruck {
+	width: 100%;
+	height: 3px;
+	border-radius: 3px;
+	background-color: #000;
+}
+
+.rangeThumb {
+	height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    transition: box-shadow .3s;
+	cursor: grab;
+}
+
+.heading {
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+
+.selectBlock {
+	margin-bottom: 15px;
+}
+
+.movieList {
+	flex-direction: column;
+	margin: 0;
+}
+
+.title {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.searchPage__results {
+	flex: 0 1 100%;
+}
