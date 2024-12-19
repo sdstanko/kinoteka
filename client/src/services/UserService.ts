@@ -4,7 +4,7 @@ import { IMovie } from '../types/IMovie'
 
 export const userAPI = createApi({
     reducerPath: 'userAPI',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://danijel.pro/kinoteka/api/user' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://danijel.tech/kinoteka/api/user' }),
     endpoints: (build) => ({
         createUser: build.mutation({
             query: (user) => ({

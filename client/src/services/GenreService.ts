@@ -3,7 +3,7 @@ import { IGenre } from '../types/IGenre'
 
 export const genreAPI = createApi({
 	reducerPath: 'genreAPI',
-	baseQuery: fetchBaseQuery({baseUrl: 'https://danijel.pro/kinoteka/api/genre'}),
+	baseQuery: fetchBaseQuery({baseUrl: 'https://danijel.tech/kinoteka/api/genre'}),
 	endpoints: (build) => ({
 		fetchAllGenres: build.query<IGenre[], String>({
 			query: () => ({

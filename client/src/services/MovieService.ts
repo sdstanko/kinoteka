@@ -3,7 +3,7 @@ import { IMovie } from '../types/IMovie'
 
 export const movieAPI = createApi({
     reducerPath: 'movieAPI',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://danijel.pro/kinoteka/api/movie' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://danijel.tech/kinoteka/api/movie' }),
     endpoints: (build) => ({
         fetchAllMovies: build.query<IMovie[], string>({
             query: () => '',
